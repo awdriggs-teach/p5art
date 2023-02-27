@@ -8,8 +8,9 @@ Use these guides to help you learn p5 both in and out of the classroom.
 I can use p5.js to create a drawing.
 
 ## Mini-Lessons
+1. [Introduction](./start.md)
 1. [Drawing Circles](./circles.md) 
-1. Drawing rectangles
+1. [Drawing rectangles](./rect)
 1. Lines 
 1. Color
 1. Variables  

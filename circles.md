@@ -2,7 +2,7 @@
 
 In p5, we can use the `ellipse` function to create both circles and ovals.
 
-The `ellipse` function needs 4 arguments for placement and size.
+The `ellipse` function needs 4 parameters for placement and size.
 
 ```javascript
 ellipse(x, y, width, height)
