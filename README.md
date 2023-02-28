@@ -11,7 +11,7 @@ I can use p5.js to create a drawing.
 1. [Introduction](./start.md)
 1. [Drawing Circles](./circles.md) 
 1. [Drawing rectangles](./rect.md)
-1. [Lines](./lines.md) 
+1. [Lines](./line.md) 
 1. [Positioning](./positioning.md)
 1. Color
 1. Variables  
