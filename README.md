@@ -1,4 +1,4 @@
-# Code Art
+#Code Art
 
 P5 is a javascript library created to teach coding to beginners, artists, and designers. It makes drawing with code easier. We are going to use p5 to create an original drawing.
 
@@ -13,7 +13,7 @@ I can use p5.js to create a drawing.
 1. [Drawing rectangles](./rect.md)
 1. [Lines](./line.md) 
 1. [Positioning](./positioning.md)
-1. [Color](.color.md)
+1. [Color](./color.md)
 1. Variables  
 1. Advanced Shapes
 
