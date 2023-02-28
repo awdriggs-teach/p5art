@@ -7,7 +7,7 @@ The `line` function takes in 4 parameters for the start and end of the line.
 line(startX, startY, endX, endY)
 ```
 
-![line diagram](.imgs/line.jpg)
+![line diagram](./imgs/line.jpg)
 
 * `startX` - a number, the x location for the start of the line.
 * `startY` - a number, the y location for the start of the line.
