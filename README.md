@@ -13,7 +13,7 @@ I can use p5.js to create a drawing.
 1. [Drawing rectangles](./rect.md)
 1. [Lines](./line.md) 
 1. [Positioning](./positioning.md)
-1. Color
+1. [Color](.color.md)
 1. Variables  
 1. Advanced Shapes
 
