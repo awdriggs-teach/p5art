@@ -8,6 +8,8 @@ The `rect` function needs 4 parameters fro placement and size.
 rect(x, y, width, height);
 ```
 
+![rectangle diagram](.imgs/rect.jpg)
+
 * `x` - a number, the horizontal position on the screen
 * `y` - a number, the vertical position on the screen
 * `width` - a number, how wide the rectangle should be.

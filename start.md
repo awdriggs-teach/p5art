@@ -3,9 +3,6 @@
 ## Functions
 P5 is a library of *functions*. A function is simply a block of code that does a task.
 
-We call a p5 project a sketch, as in sketchbook, because they are quick to start!
-
-
 Think of it like a scratch block. A Scratch block has a name and usually takes in a value or *parameter*.
 
 ![Scratch](./imgs/scratch.png)
@@ -25,7 +22,7 @@ To draw a circle use can use the ellipse function, and give it 4 parameters.
 For more on drawing circles, check out the [Circles page](./circles.md).
 
 ## Basic Setup
-For every sketch, two functions most defined for the sketch to run properly.
+We call a p5 project a sketch, as in sketchbook, because they are quick to start! For every sketch, two functions most defined for the sketch to run properly.
 
 ![Basic Sketch](./imgs/basics.png)
 

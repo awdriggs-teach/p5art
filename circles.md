@@ -8,6 +8,8 @@ The `ellipse` function needs 4 parameters for placement and size.
 ellipse(x, y, width, height)
 ```
 
+![Circle diagram](.imgs/circle.jpg)
+
 * `x` - a number, the horizontal position on the screen
 * `y` - a number, the vertical position on the screen
 * `width` - a number, how wide the ellipse should be.
