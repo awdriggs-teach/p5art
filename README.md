@@ -14,8 +14,10 @@ I can use p5.js to create a drawing.
 1. [Lines](./line.md) 
 1. [Positioning](./positioning.md)
 1. [Color](./color.md)
-1. Variables  
+1. [Variables](./variables.md)
+1. [Math](./math.md) 
 1. Advanced Shapes
+
 
 ## Resources
 * [p5 Editor](https://editor.p5js.org/) - Remember to sign-in!
