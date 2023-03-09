@@ -4,6 +4,7 @@
 - [Triangle](#triangle)
 - [Quad](#quad)
 - [Arc](#arc)
+- [Polygon](#Polygon)
 
 ## Triangle
 In p5, a triangle is made from the three corner points, connected with a line.
