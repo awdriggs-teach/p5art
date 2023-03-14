@@ -21,6 +21,7 @@ I can use p5.js to create a drawing.
 ## Video Lessons
 1. [Mouse Events](./mouse.md)
 1. [Drawing Hearts](./heart.md)
+1. [Writing Functions](./functions.md)
 
 ## Resources
 * [p5 Editor](https://editor.p5js.org/) - Remember to sign-in!
