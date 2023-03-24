@@ -7,7 +7,7 @@ Use these guides to help you learn p5 both in and out of the classroom.
 ## Learning Target
 I can use p5.js to create a drawing.
 
-## Mini-Lessons
+## Basics 
 1. [Introduction](./start.md)
 1. [Drawing Circles](./circles.md) 
 1. [Drawing rectangles](./rect.md)
@@ -18,10 +18,16 @@ I can use p5.js to create a drawing.
 1. [Math](./math.md) 
 1. [Advanced Shapes](./shapes.md)
 
-## Video Lessons
-1. [Mouse Events](./mouse.md)
-1. [Drawing Hearts](./heart.md)
-1. [Writing Functions](./functions.md)
+## Advanced
+1. [Mouse Events](./mouse.md) - video!
+1. [Drawing Hearts](./heart.md) - video!
+1. [Writing Functions](./functions.md) - video!
+1. For Loops
+
+## Animations!
+1. [Random](./random.md)
+1. [Using the frameCount to animate.](./frameCount.md)
+1. Using math to help animate.
 
 ## Resources
 * [p5 Editor](https://editor.p5js.org/) - Remember to sign-in!
