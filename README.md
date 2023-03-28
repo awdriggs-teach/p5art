@@ -27,7 +27,7 @@ I can use p5.js to create a drawing.
 ## Animations!
 1. [Random](./random.md)
 1. [Using the frameCount to animate.](./frameCount.md)
-1. [Sine and Cosine Motion](https://blog.logrocket.com/creating-animations-p5-js/#:~:text=a%20spinning%20motion.-,Sine%20and%20cosine%20animations,-For%20these%20animations)
+1. [Sine and Cosine Motion](./trig.md) - video!
 
 ## Resources
 * [p5 Editor](https://editor.p5js.org/) - Remember to sign-in!
