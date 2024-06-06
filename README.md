@@ -1,37 +1,13 @@
- Code Art
+# Code Art
+[P5](https://p5js.org/) is a javascript library created to teach coding to beginners, artists, and designers. It makes drawing with code easier.
 
-P5 is a javascript library created to teach coding to beginners, artists, and designers. It makes drawing with code easier. We are going to use p5 to create an original drawing.
+These tutorials are intended to guide learners of all ages though some of the cool things you can do with code! 
 
-Use these guides to help you learn p5 both in and out of the classroom.
-
-## Learning Target
-I can use p5.js to create a drawing.
-
-## Basics 
-1. [Introduction](./start.md)
-1. [Drawing Circles](./circles.md) 
-1. [Drawing rectangles](./rect.md)
-1. [Lines](./line.md) 
-1. [Positioning](./positioning.md)
-1. [Color](./color.md)
-1. [Variables](./variables.md)
-1. [Math](./math.md) 
-1. [Advanced Shapes](./shapes.md)
-1. [Using Map](./map.md)
-
-## Advanced
-1. [Mouse Events](./mouse.md) - video!
-1. [Drawing Hearts](./heart.md) - video!
-1. [Writing Functions](./functions.md) - video!
-1. [For Loops](./for.md)
-
-## Animations!
-1. [Random](./random.md)
-1. [Using the frameCount to animate.](./frameCount.md)
-1. [Sine and Cosine Motion](./trig.md) - video!
+## Topics
+* [Basics + Drawing](./basics/drawing.md)
+* [Image Manipulation](./imageman/images.md)
 
 ## Resources
 * [p5 Editor](https://editor.p5js.org/) - Remember to sign-in!
 * [p5 Reference](https://p5js.org/reference/) - Everything p5!
-* [Coding Train Playlist](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) - p5 video series
-
+* [Coding Train Playlist](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) - p5 video series.

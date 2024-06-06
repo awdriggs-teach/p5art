@@ -8,8 +8,7 @@ Here is an example that uses the `frameCount` to change the size of a circle. Th
 ellipse(width/2, height/2, frameCount);
 ```
 
-![circle getting bigger](.imgs/frameCount1.gif)
-
+![circle getting bigger](./imgs/frameCount1.gif)
  
 p5 tries to draw 60 frames per second. So the circle will get big fast! After 5 seconds the circle will be about 300 pixels in size.
  
