@@ -1,8 +1,7 @@
 # Image Manipulation with p5 
 
 ## Tutorials 
-- [Basics Review](basics.md), getting started with p5.
-- [Images Basics](images.md), loading, displaying, and sizing images with p5.
+- [Images Basics](basics.md), loading, displaying, and sizing images with p5.
 - [Advanced Image Manipulation](advanced.md), manipulating pixel data.
 - [Code Examples](https://github.com/awdriggs/codedImages)
 

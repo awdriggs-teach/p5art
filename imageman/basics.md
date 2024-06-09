@@ -129,7 +129,7 @@ We can position the image however we like, for example we could have to follow t
 ```javascript
 image(img, mouseX - img.width / 2, mouseY - img.height/2); //make it centered on the mouse
 ```
-![Grumpy Cat](.imgs/grumpy-draw1.gif)
+![Grumpy Cat](./imgs/grumpy-draw1.gif)
 
 Now whenever we move the mouse the image follows. Try removing the `background()` at the start of draw. Now we can see a history of where the mouse has been.
 
@@ -140,7 +140,7 @@ if(mouseIsPressed == true){ //only paint the image when the mouse is pressed.
   image(img, mouseX - img.width / 2, mouseY - img.height/2);
 }
 ```
-![Grumpy Cat](.imgs/grumpy-draw2.gif)
+![Grumpy Cat](./imgs/grumpy-draw2.gif)
 
 # Up Next 
 See how to manipulate pixel data in the [advanced images guide](./advanced.md)

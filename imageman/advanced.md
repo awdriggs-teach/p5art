@@ -1,23 +1,24 @@
 # Advanced Image Manipulation
+Once you have an image in p5, you can access any and all pixel data associated with image. You can grab and edit a single pixel, or grab sub sections of an image.
 
 ## Getting Pixel information
 There are different methods to get pixel information. Each has its pros and cons.
 
 ### Pixels
-You can access the pixel data for any image, but gets pretty complicated fast! Here is a code sample.
+You can access the raw pixel data for any image, but this gets pretty complicated fast! Here is a code sample.
 
 ```javascript
 img.loadPixels(); //this loads the the pixel data
-print(img.pixels); //dumps all pixel information to the console, might crash your browser.
+print(img.pixels); //dumps all pixel information to the console, might crash your browser depending on how big the image is.
 ```
 
-This is what would be printed: `[ 104, 116, 94, 255, 100, 112, 90, 255, 91, 103, … ]`
+Here is an example of what could be printed: `[ 104, 116, 94, 255, 100, 112, 90, 255, 91, 103, … ]`
 
-The square brackets show that this is an *array*, fancy talk for a list. All the pixel data for the entire image is stored in the array. This image shows how it related.
+The square brackets show that this is an *array*, fancy talk for a list. All the pixel data for the entire image is stored in the array. Each pixel is represented by 4 values.
 
 ![pixel data for the mona lisa](./pixels.png)
 
-  This can be useful, but we need to do a bunch of math to translate this 1 dimensional array into an 2 dimensional image.
+This can be useful and very *fast*, but we need to do a bunch of math to translate this 1 dimensional array into useful image data.
 
 ### `get()` method
 The `get()` method is easier to work with, but not as speedy. It has multiple forms:
