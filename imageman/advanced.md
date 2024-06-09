@@ -16,7 +16,7 @@ Here is an example of what could be printed: `[ 104, 116, 94, 255, 100, 112, 90,
 
 The square brackets show that this is an *array*, fancy talk for a list. All the pixel data for the entire image is stored in the array. Each pixel is represented by 4 values.
 
-![pixel data for the mona lisa](./pixels.png)
+![pixel data for the mona lisa](./imgs/pixels.png)
 
 This can be useful and very *fast*, but we need to do a bunch of math to translate this 1 dimensional array into useful image data.
 
@@ -56,7 +56,7 @@ function draw() {
 
 Here is the result!
 
-![pointalism mona lisa](./points.jpg)
+![pointalism mona lisa](./imgs/points.jpg)
 
 Here is an example where we can get a sub section of an image.
 ```javascript
@@ -79,7 +79,7 @@ function draw() {
 ```
 
 Here is a visual that shows how the sub section is calculated:
-![subsection of the mona lisa](./get.png)
+![subsection of the mona lisa](./imgs/get.png)
 
 With `get()` the possibilities for manipulation are pretty endless. We could weave two images together. We could split the image into tiles and randomize the order.
 
@@ -88,12 +88,12 @@ Inspired by an [manipulated photo](https://www.instagram.com/p/Cw-nYXYIEny/) by 
 
 First I use a for loop to layout a grid of smaller squares on Mona.
 
-![a grid of squares on the mona lisa](./bitmona-1.jpg)
+![a grid of squares on the mona lisa](./imgs/bitmona-1.jpg)
 
 Using this same geometry, I grabbed a subsection of the image at each square and stored it into an array called thumbs.
 
 I then display each thumb, enlarging them to fill the canvas.
 
-![mona lisa made of squares](./bitmona-2.jpg)
+![mona lisa made of squares](./imgs/bitmona-2.jpg)
 
-You can see the code [here](example/sketch.js)
+You can see the code [here](./example/sketch.js)
