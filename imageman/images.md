@@ -3,9 +3,9 @@
 ## Tutorials 
 - [Images Basics](basics.md), loading, displaying, and sizing images with p5.
 - [Advanced Image Manipulation](advanced.md), manipulating pixel data.
-- [Code Examples](https://github.com/awdriggs/codedImages)
 
 ## External Resources
+- [My Examples + code](https://awdriggs.github.io/codedImages/)
 - [Happy Coding](https://happycoding.io/tutorials/p5js/), lots of good tutorials. 
 - [Coding Train](https://thecodingtrain.com/)
 - [p5 Editor](https://editor.p5js.org/)

@@ -84,7 +84,7 @@ Here is a visual that shows how the sub section is calculated:
 With `get()` the possibilities for manipulation are pretty endless. We could weave two images together. We could split the image into tiles and randomize the order.
 
 ## A Final Example
-Inspired by an [manipulated photo](https://www.instagram.com/p/Cw-nYXYIEny/) by [Kensuke Koiko](https://www.kensukekoike.com/), I wanted to make a p5 version that would work with any image.
+Inspired by a [manipulated photo](https://www.instagram.com/p/Cw-nYXYIEny/?img_index=4) by [Kensuke Koiko](https://www.kensukekoike.com/), I wanted to make a p5 version that would work with any image.
 
 First I use a for loop to layout a grid of smaller squares on Mona.
 
