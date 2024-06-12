@@ -2,7 +2,8 @@
 
 ## Tutorials 
 - [Images Basics](basics.md), loading, displaying, and sizing images with p5.
-- [Advanced Image Manipulation](advanced.md), manipulating pixel data.
+- [Pixel Manipulation](advanced.md), manipulating pixel data.
+- [Cutting an Image UP](split.md), using `get()` to grab parts of an image 
 
 ## External Resources
 - [My Examples + code](https://awdriggs.github.io/codedImages/)
