@@ -91,7 +91,7 @@ function displayImage() {
 ### Two-Dimensional, Grid
 Now that we have the code to make slices, we can put that inside another for loop to get a grid of image cells
 
-```javascipt
+```javascript
 let mona;
 let numRows, numCols;
 let cellWidth, cellHeight;

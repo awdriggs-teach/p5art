@@ -20,6 +20,42 @@ The square brackets show that this is an *array*, fancy talk for a list. All the
 
 This can be useful and very *fast*, but we need to do a bunch of math to translate this 1 dimensional array into useful image data.
 
+See this example to understand what I'm talking about! It randomly changes pixels to white, snow effect.
+```javascript
+let mona;
+let numPixels = 0;
+
+function preload(){
+    mona = loadImage('./mona-lg.jpg'); //this image must be in the same folder as the sketch code
+}
+
+function setup() {
+  createCanvas(470, 700);
+  print(mona.width, mona.height);
+  mona.loadPixels();
+  print(mona.pixels.length);
+
+  //every red pixel will be a denomination of 4
+  numPixels = mona.pixels.length/4;
+  print(numPixels, mona.width*mona.height); //should match
+}
+
+function draw() {
+  background(220);
+
+  let randomPixel = floor(random(0, numPixels)) * 4
+
+  //rgb of this pixel
+  mona.pixels[randomPixel + 0] = 255; //r channel
+  mona.pixels[randomPixel + 1] = 255; //b channel
+  mona.pixels[randomPixel + 2] = 255; //c channgel
+
+  mona.updatePixels(); //update, needs to be called to see the changes
+  image(mona, 0, 0); //display
+
+}
+```
+
 ### `get()` method
 The `get()` method is easier to work with, but not as speedy. It has multiple forms:
 
