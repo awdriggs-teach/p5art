@@ -58,42 +58,5 @@ Here is the result!
 
 ![pointalism mona lisa](./imgs/points.jpg)
 
-Here is an example where we can get a sub section of an image.
-```javascript
-let img;
-let thumb;
-
-function preload(){
-  img = loadImage('/imgs/mona.jpg')
-}
-
-function setup() {
-  createCanvas(400, 400);
-  thumb = img.get(164, 143, 80, 80); //grab a sub section of the image
-}
-
-function draw() {
-  background(220);
-  image(thumb, mouseX, mouseY); //draw the sub image at the mosue pointer
-}
-```
-
-Here is a visual that shows how the sub section is calculated:
-![subsection of the mona lisa](./imgs/get.png)
-
-With `get()` the possibilities for manipulation are pretty endless. We could weave two images together. We could split the image into tiles and randomize the order.
-
-## A Final Example
-Inspired by a [manipulated photo](https://www.instagram.com/p/Cw-nYXYIEny/?img_index=4) by [Kensuke Koiko](https://www.kensukekoike.com/), I wanted to make a p5 version that would work with any image.
-
-First I use a for loop to layout a grid of smaller squares on Mona.
-
-![a grid of squares on the mona lisa](./imgs/bitmona-1.jpg)
-
-Using this same geometry, I grabbed a subsection of the image at each square and stored it into an array called thumbs.
-
-I then display each thumb, enlarging them to fill the canvas.
-
-![mona lisa made of squares](./imgs/bitmona-2.jpg)
-
-You can see the code [here](https://github.com/awdriggs/codedImages/blob/main/bitmona/sketch.js)
+# Next Steps
+The [next tutorial](./split.md) show how to use `get` to grab a section of an image
