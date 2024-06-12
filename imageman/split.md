@@ -86,7 +86,7 @@ function displayImage() {
   }
 }
 ```
-![sliced up mona lisa](.imgs/slice.png) 
+![sliced up mona lisa](./imgs/slice.png) 
 
 ### Two-Dimensional, Grid
 Now that we have the code to make slices, we can put that inside another for loop to get a grid of image cells
@@ -154,7 +154,7 @@ function displayImage(){
   }
 }
 ```
-![grid of random mona lisa](.imgs/grid.png) 
+![grid of random mona lisa](./imgs/grid.png) 
 
 With `get()` the possibilities for manipulation are pretty endless. We could weave two images together. We could split the image into tiles and randomize the order.
 
