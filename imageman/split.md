@@ -10,6 +10,7 @@ When `Image.get()` is given 4 parameters, it will take a rectangular section of 
 - `h`: Height of the cutting rectangle
 
 Here is a visual that shows how the sub section is calculated:
+
 ![subsection of the mona lisa](./imgs/get.png)
 
 Here is an example where we can get a sub section of an image.

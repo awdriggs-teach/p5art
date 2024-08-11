@@ -6,8 +6,9 @@ These tutorials are intended to guide learners of all ages though some of the co
 ## Topics
 * [Basics + Drawing](./basics/drawing.md)
 * [Image Manipulation](./imageman/images.md)
+* [Shaders](./shaders/README.md)
 
-## Resources
+## General Resources
 * [p5 Editor](https://editor.p5js.org/) - Remember to sign-in!
 * [p5 Reference](https://p5js.org/reference/) - Everything p5!
 * [Coding Train Playlist](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) - p5 video series.
