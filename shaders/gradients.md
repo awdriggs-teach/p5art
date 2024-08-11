@@ -81,7 +81,7 @@ let x = 0; x < width; x+=1){
  
 Here is the result.
 
-![a smoother gradient](./imgs/gradient2d-1.png);
+![a smoother gradient](./imgs/gradient2d-2.png);
 
 Now we have a smoother gradient, but it always the same. Let's change it to make the mouse control the green value. Add this line before the for loop, `let g = map(mouseX, 0, width, 0, 255);`
 
